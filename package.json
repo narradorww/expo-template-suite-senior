@@ -1,6 +1,6 @@
 {
   "name": "expo-template-suite-senior",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A professional Expo template for React Native projects.",
   "keywords": [
     "expo",
@@ -22,6 +22,7 @@
     "template": true
   },
   "scripts": {
+    "postinstall": "mv template/* ./ && rm -rf template",
     "test": "echo \"No tests defined\" && exit 0"
   }
 }
