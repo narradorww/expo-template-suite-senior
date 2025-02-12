@@ -15,7 +15,7 @@
   ],
   "homepage": "https://github.com/narradorww",
   "author": "Rodrigo Alexandre <https://github.com/narradorww>",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "main": "index.tsx",
   "scripts": {
     "start": "expo start",
