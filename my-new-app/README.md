@@ -140,17 +140,3 @@ This project is licensed under the GPL-3.0-only License. See the [LICENSE](LICEN
 ---
 
 _Note: This template is designed to provide a solid foundation for React Native projects using Expo, with a focus on code quality and developer productivity._
-
-### ⚠️ Peer dependency warning
-
-If you see dependency conflicts when installing, run:
-
-```bash
-npm install --legacy-peer-deps
-```
-
-or use:
-
-```bash
-yarn install --check-files
-```
