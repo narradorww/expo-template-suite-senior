@@ -1,15 +1,13 @@
 {
   "expo": {
-    "name": "expo-template-suite-senior",
-    "slug": "expo-template-suite-senior",
+    "name": "MyApp",
+    "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0ea5e9"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,13 +18,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#0ea5e9"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
+    "web": {},
     "plugins": ["expo-localization", "expo-asset", "expo-font"],
     "sdkVersion": "53.0.0"
   }

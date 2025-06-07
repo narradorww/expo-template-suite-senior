@@ -42,6 +42,10 @@ cd MyApp
 npm install
 ```
 
+**⚠️ Important: Add your app assets before running**
+
+See [ASSETS.md](ASSETS.md) for detailed instructions on required images (icon, splash screen, etc.).
+
 Start developing:
 
 ```bash
