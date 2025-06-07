@@ -1,7 +1,7 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "react-jsx",
     "strict": true,
     "baseUrl": "./",
     "paths": {
@@ -15,7 +15,12 @@
     "types": ["react-native", "jest"],
     "allowJs": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src", "src/@types"]
+  "include": ["src", "src/@types", "*.ts", "*.tsx", "App.tsx", "index.tsx"],
+  "exclude": ["node_modules", "dist", "build"]
 }
