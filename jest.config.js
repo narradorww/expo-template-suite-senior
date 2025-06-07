@@ -1,5 +1,5 @@
 module.exports = {
-  preset: 'jest-expo',
+  preset: 'react-native',
   setupFilesAfterEnv: ['<rootDir>/setupJest.js'],
   testMatch: ['**/__tests__/**/*.(ts|tsx|js)', '**/*.(test|spec).(ts|tsx|js)'],
   collectCoverageFrom: [
