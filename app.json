@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HandTalkChallenge",
-    "slug": "HandTalkChallenge",
+    "name": "expo-template-suite-senior",
+    "slug": "expo-template-suite-senior",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["expo-localization", "expo-asset", "expo-font"]
+    "plugins": ["expo-localization", "expo-asset", "expo-font"],
+    "sdkVersion": "53.0.0"
   }
 }
